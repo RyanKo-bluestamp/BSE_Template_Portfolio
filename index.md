@@ -12,7 +12,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 |:--:|:--:|:--:|:--:|
 | Ryan K | Monta Vista High School | Mechanical Engineering | Incoming Senior
 
-![Headstone Image](Ryan_K.jpg)
+![Headstone Image](Ryan_K (1).jpg)
   
 # Final Milestone
 
