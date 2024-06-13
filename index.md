@@ -12,9 +12,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 |:--:|:--:|:--:|:--:|
 | Ryan K | Monta Vista High School | Mechanical Engineering | Incoming Senior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image](logo.svg)
+![Headstone Image](Ryan_K.HEIC)
   
 # Final Milestone
 
@@ -64,7 +62,9 @@ For your first milestone, describe what your project is and how you plan to buil
 
 For my starter project, I made the Arduino starter. Through jumper wires, I connected the Arduino Uno to a breadboard. The photoresistor on the breadboard detects the intensity of light above it (input) and either lights up or dims the LED (output) as a result of its analog reading. For example, when I place my finger over the photoresistor, and it detects a light intensity less than 800, the LED lights up. When I remove my finger and the photoresistor detects a light intensity greater than 800, the LED dims. One major challenge I faced when making the Arduino starter was the photoresistor's incompability with another resistor on the breadboard, which was much weaker. After realizing this issue, however, it didn't take long for me to find a compatible resistor, and it was able to power my project. Since my main project, the Shoulder Recovery Device with TinyML also uses the Arduino Uno, this starter project was extremely beneficial towards my understanding of how to work with one. 
 
+![Arduino LED Schematic](Ryan_K.HEIC)
 
+![Arduino Photoresistor Schematic](Ryan_K.HEIC)
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
