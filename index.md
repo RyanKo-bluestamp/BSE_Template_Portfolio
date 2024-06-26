@@ -40,7 +40,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R3pcYBH-bYE?si=uMvKYr8TdHccgHL5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="760" height="515" src="https://www.youtube.com/embed/R3pcYBH-bYE?si=uMvKYr8TdHccgHL5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 My first milestone was building a machine learning classifier for recognizing different shoulder movements. The first step of the project was to connect the Arduino Nano to my computer in order to record data of my shoulder adjustments via its built-in accelerometer. The accelerometer measures the change in motion in the form of acceleration. 
 
@@ -73,7 +73,7 @@ In the future, I hope to more rigorously test on completely unseen data. For fut
 
 # Starter Project
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3rn7nXZq_ys?si=nwHj_II8YJuKPDbz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="760" height="515" src="https://www.youtube.com/embed/3rn7nXZq_ys?si=nwHj_II8YJuKPDbz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For my starter project, I made the Arduino starter. Through jumper wires, I connected the Arduino Uno to a breadboard. The photoresistor on the breadboard detects the intensity of light above it (input) and either lights up or dims the LED (output) as a result of its analog reading. For example, when I place my finger over the photoresistor, and it detects a light intensity less than 800, the LED lights up. When I remove my finger and the photoresistor detects a light intensity greater than 800, the LED dims. One major challenge I faced when making the Arduino starter was the photoresistor's incompability with another resistor on the breadboard, which was much weaker. After realizing this issue, however, it didn't take long for me to find a compatible resistor, and it was able to power my project. Since my main project, the Shoulder Recovery Device with TinyML also uses the Arduino Uno, this starter project was extremely beneficial towards my understanding of how to work with one. Attached below is the LED schematic I used as a reference: 
 
