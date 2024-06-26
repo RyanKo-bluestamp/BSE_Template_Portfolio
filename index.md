@@ -59,7 +59,7 @@ Several trial and error runs of collecting and splitting data later, I utilized 
 <img src="Figure3.png" alt="My Image" width="800" height="900">
 *Figure 3: Above are the settings of my hyperparameters for my model and neural network architecture.*
 
-![Headstone Image](Figure4.png) 
+<img src="Figure4.png" alt="My Image" width="800" height="900">
 *Figure 4: NN Classifier tab displays my model accuracy, confusion matrix displaying the accuracy distribution, and crucial metrics.*
 
 With version 1 of the model complete, I deployed on the terminal app for real time display. I downloaded my model off of Edge Impulse, flashed its Mac command in my downloads folder, and ran the command “edge-impulse-run-impulse” in the terminal to initiate the deployment and testing of my model. Every 2 seconds, the value reading of the 4 labels appeared, and the readings changed based on my current shoulder movements. The higher the value reading for a certain label, the more likely I was performing that respective motion. Although some of the value readings did not match the motion I was executing, it was to be expected for the first rendition of this model. 
