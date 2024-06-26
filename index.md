@@ -50,20 +50,20 @@ Despite my computer not detecting any input initially, I troubleshooted and disc
 
 After establishing the connection between the Arduino and my computer, I recorded data on Edge Impulse. Edge Impulse is a website for creating machine learning models. The goal was for my Arduino to be able to detect different shoulder movements, such as to the left, right, ceiling, or idle. Using the “data acquisition” section in Edge Impulse, I recorded one minute of shoulder activity for each of the four categories, or labels. I then manually split each of the 4 data graphs into 50 sections, each section a singular rotation of my shoulder. Splitting the training data rids the data set of noise so it can be trained on good data. The data treatment ensured the machine learning model would be able to differentiate between actual shoulder adjustments and irrelevant motions. After the splitting of data, I ensured the training to testing ratio was 80%-20%, so the model would be successful when running under both conditions. I chose the 80%-20% split as it’s the industry standard to guarantee the absence of overfitting and underfitting. Overfitting happens when the model is too complex, leading to accurate performance in the training set but poor performance in the validation set. Underfitting on the other hand happens as a result of the model being too simple, unable to detect complexities in the data, thus resulting in poor performances in both the validation and training set. We are aiming for a good generalization of data. 
 
-![Headstone Image](headshot.png) 
+![Headstone Image](Figure2.png) 
 *Figure 2: Data Acquisition tab displays my training/testing split, total data collection time, and a motion graph for each of my splits.*
 
 Several trial and error runs of collecting and splitting data later, I utilized the “NN Classifier” function to train the machine learning model. The NN Classifier (Neural Network Classifier) is a type of AI algorithm that classifies data into different categories. My most accurate model was 85.3% (see Figure 4) accurate at detecting the correct labels, which is acceptable for this first rendition. Besides the model, Edge Impulse also provided me with the metrics for the validation set. These included Weighted Average Precision Value (out of all the instances the model detected a certain motion, how many instances was it correct in detecting it) and the Weighted Average Recall Value (out of all the instances in which I performed a particular shoulder motion, how many times did the model detect it correctly). These metrics provided me with additional information on the accuracy of my model and areas for improvement for future models. 
 
-![Headstone Image](headshot.png) 
+![Headstone Image](Figure3.png) 
 *Figure 3: Above are the settings of my hyperparameters for my model and neural network architecture.*
 
-![Headstone Image](headshot.png) 
+![Headstone Image](Figure4.png) 
 *Figure 4: NN Classifier tab displays my model accuracy, confusion matrix displaying the accuracy distribution, and crucial metrics.*
 
 With version 1 of the model complete, I deployed on the terminal app for real time display. I downloaded my model off of Edge Impulse, flashed its Mac command in my downloads folder, and ran the command “edge-impulse-run-impulse” in the terminal to initiate the deployment and testing of my model. Every 2 seconds, the value reading of the 4 labels appeared, and the readings changed based on my current shoulder movements. The higher the value reading for a certain label, the more likely I was performing that respective motion. Although some of the value readings did not match the motion I was executing, it was to be expected for the first rendition of this model. 
 
-![Headstone Image](headshot.png) 
+![Headstone Image](Figure5.png) 
 *Figure 5: Deployed on the terminal app for testing; the numbers represent the probability that the given label was performed.* 
 
 In the future, I hope to more rigorously test on completely unseen data. For future milestones, I plan to improve the accuracy of my model by feeding Edge Impulse more specific data to retrain the model. 
