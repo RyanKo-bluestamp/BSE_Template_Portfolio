@@ -7,7 +7,7 @@ Hi everyone! My name is Ryan, and my main project is the Shoulder Recovery Devic
 |:--:|:--:|:--:|:--:|
 | Ryan K | Monta Vista High School | Mechanical Engineering | Incoming Senior
 
-<img src="headshot.png" alt="My Image" width="900" height="200">
+<img src="headshot.png" alt="My Image" width="400" height="400">
 
   
 <!--- # Final Milestone
