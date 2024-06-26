@@ -56,7 +56,7 @@ After establishing the connection between the Arduino and my computer, I recorde
 
 Several trial and error runs of collecting and splitting data later, I utilized the “NN Classifier” function to train the machine learning model. The NN Classifier (Neural Network Classifier) is a type of AI algorithm that classifies data into different categories. My most accurate model was 85.3% (see Figure 4) accurate at detecting the correct labels, which is acceptable for this first rendition. Besides the model, Edge Impulse also provided me with the metrics for the validation set. These included Weighted Average Precision Value (out of all the instances the model detected a certain motion, how many instances was it correct in detecting it) and the Weighted Average Recall Value (out of all the instances in which I performed a particular shoulder motion, how many times did the model detect it correctly). These metrics provided me with additional information on the accuracy of my model and areas for improvement for future models. 
 
-![Headstone Image](Figure3.png) 
+<img src="Figure3.png" alt="My Image" width="400" height="500">
 *Figure 3: Above are the settings of my hyperparameters for my model and neural network architecture.*
 
 ![Headstone Image](Figure4.png) 
