@@ -56,10 +56,10 @@ After establishing the connection between the Arduino and my computer, I recorde
 
 Several trial and error runs of collecting and splitting data later, I utilized the “NN Classifier” function to train the machine learning model. The NN Classifier (Neural Network Classifier) is a type of AI algorithm that classifies data into different categories. My most accurate model was 85.3% (see Figure 4) accurate at detecting the correct labels, which is acceptable for this first rendition. Besides the model, Edge Impulse also provided me with the metrics for the validation set. These included Weighted Average Precision Value (out of all the instances the model detected a certain motion, how many instances was it correct in detecting it) and the Weighted Average Recall Value (out of all the instances in which I performed a particular shoulder motion, how many times did the model detect it correctly). These metrics provided me with additional information on the accuracy of my model and areas for improvement for future models. 
 
-<img src="Figure3.png" alt="My Image" width="600" height="700">
+![Headstone Image](Figure3.png) 
 *Figure 3: Above are the settings of my hyperparameters for my model and neural network architecture.*
 
-<img src="Figure4.png" alt="My Image" width="600" height="700">
+![Headstone Image](Figure4.png) 
 *Figure 4: NN Classifier tab displays my model accuracy, confusion matrix displaying the accuracy distribution, and crucial metrics.*
 
 With version 1 of the model complete, I deployed on the terminal app for real time display. I downloaded my model off of Edge Impulse, flashed its Mac command in my downloads folder, and ran the command “edge-impulse-run-impulse” in the terminal to initiate the deployment and testing of my model. Every 2 seconds, the value reading of the 4 labels appeared, and the readings changed based on my current shoulder movements. The higher the value reading for a certain label, the more likely I was performing that respective motion. Although some of the value readings did not match the motion I was executing, it was to be expected for the first rendition of this model. 
