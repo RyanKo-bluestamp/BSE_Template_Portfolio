@@ -27,15 +27,11 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
-
-
 # Second Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cBd0G1ALIac?si=ypcBQgaD3GmWAqH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 My second milestone included constructing my Arduino device and creating an enclosure for it on Fusion 360 and 3D printing it. To build my device, I soldered pin houses onto a PCB for my Arduino to fit on. I then soldered 4 solid wires onto the PCB to connect the A4, A5, Ground, and 3.3V pins to the corresponding SDA, SCL, Ground, and Vin pins on the OLED display. This process ensures that the battery-powered Arduino can successfully connect and power on the OLED. I then attached the Arduino to the rest of the device. However, my OLED didn't display anything. After switching countless OLED monitors, unsoldering, and resoldering, I realized I was supposed to input the wire A5 wire into A6, which was the cause of the OLED malfunction. After getting the OLED to power on, I designed the enclosure model on Fusion 360. Since I had little experience in Cadding, I sought the help of one of my instructors. He worked alongside me throughout the whole process, teaching me crucial functions such as extruding, shelling, etc. After hours of brainstorming a good design and implementing it, I was finished. I printed the 3D model and assembled it with the Arduino device to finish Milestone 2. 
-
-![Headstone Image](IMG_5125.png) 
 
 # First Milestone
 
