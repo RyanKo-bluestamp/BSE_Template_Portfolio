@@ -9,7 +9,12 @@ Hi everyone! My name is Ryan, and my main project is the Shoulder Recovery Devic
 
 ![Headstone Image](headshot.png) 
 
-  
+# Final Project
+
+![Headstone Image](IMG_5125.png) 
+
+![Headstone Image](IMG_5125.png) 
+
 <!--- # Final Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
