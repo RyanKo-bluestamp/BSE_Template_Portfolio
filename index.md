@@ -13,7 +13,7 @@ Hi everyone! My name is Ryan, and my main project is the Shoulder Recovery Devic
 
 ![Headstone Image](IMG_5125.png) 
 
-![Headstone Image](IMG_5125.png) 
+![Headstone Image](IMG_5123.png) 
 
 <!--- # Final Milestone
 
